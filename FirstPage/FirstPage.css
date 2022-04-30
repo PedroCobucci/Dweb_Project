@@ -3,7 +3,10 @@
     display: flex;
     justify-content: flex-end;
 }
-
+.categoria2{
+    height: 100%;
+    min-height: 700px;
+}
 .nav-link{
     margin-right: 50px;
     margin-left: 50px;
@@ -50,6 +53,99 @@
     max-width: 381px;
     width: 100%;
 }
-.text{
 
-}
+
+
+
+  .quadrado {
+    width: 381px;
+    height: 435px;
+    background: rgba(16,19,31,1);
+    opacity: 1;
+    position: relative;
+    border: 1px solid rgba(236,243,248,1);
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .texto-quadrado {
+    width: 90%;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 224px;
+    left: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .image-quadrado {
+    width: 381px;
+    height: 200px;
+    background: url("./images/controle4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    border: 1px solid rgba(255,252,252,1);
+    overflow: hidden;
+  }
+  .container-categoria {
+    width: 555px;
+    height: 117px;
+
+    position: relative;
+    overflow: hidden;
+  }
+  .Vermais {
+    width: 220px;
+    height: 33px;
+    background: rgb(43,69,85,1);
+    opacity: 1;
+    position: absolute;
+    top: 84px;
+    left: 68px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    overflow: hidden;
+  }
+  .categoria {
+    width: 432px;
+    height: 64px;
+    background: rgba(14,83,123,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 68px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    overflow: hidden;
+  }
+
+  .text-categoria {
+    width: 555px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    top: 4px;
+    left: 0px;
+    font-family: Roboto Mono;
+    font-weight: Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+  .text-vermais {
+    width: 182px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: Roboto Mono;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .infos{
+      width: 100%;
+  }
