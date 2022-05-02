@@ -1,0 +1,40 @@
+.flex{
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-link{
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-item-login{
+    border: 2.5px solid rgba(255,255,255,1);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.navbar-expand{
+    color: black;
+    position: absolute !important;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0,0,0,0));
+}
+.all-nav{
+    background-image: url("./images/controle4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+}
+.minecraft{
+    max-width: 381px;
+    width: 100%;
+}
+.box-noticias{
+    background-color: rgba(16,19,31,1) !important;
+  }
