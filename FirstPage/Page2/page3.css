@@ -25,7 +25,7 @@
     background: linear-gradient(rgb(0, 0, 0), rgba(0,0,0,0));
 }
 .all-nav{
-    background-image: url("./images/controle4.jpg");
+    background-image: url("./images/pc2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,7 +33,10 @@
 }
 .minecraft{
     max-width: 381px;
+    max-height: 240px;
     width: 100%;
+    /* border: 1px solid rgba(255,255,255,1); */
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
 }
 .box-noticias{
     background-color: rgba(16,19,31,1) !important;

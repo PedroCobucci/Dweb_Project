@@ -78,7 +78,7 @@
     overflow: hidden;
   }
   .texto-quadrado {
-    width: 90%;
+    width: 75%;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 224px;
@@ -89,10 +89,6 @@
   .image-quadrado {
     width: 381px;
     height: 200px;
-    background: url("./images/controle4.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
     border: 1px solid rgba(255,252,252,1);
